@@ -1,0 +1,17 @@
+experiment_id=a79558e7-3a8f-463f-bec9-d5d733cd0e2e
+label=mutual_inhibition
+seed=6
+action_identity=True
+centered=True
+population_readout=False
+action_centered=True
+d1_only=False
+n_episodes=1000
+n_eval_episodes=30
+warmup_episodes=50
+epsilon_explore=0.3
+plasticity_lr=0.1
+anneal=False
+wmax_override=None
+elapsed_s=650.6
+summary_line=[mutual_inhibition] seed=6 eps=0.3 lr=0.1 WARMUP=50 CENTERED: train_ep0-250=22.8 ep250-500=47.1 ep500-750=42.6 ep750-1000=38.2 train_max=218 flip_rate=0.281 GREEDY_EVAL_mean=101.9 GREEDY_EVAL_std=21.9 GREEDY_EVAL_max=171 W_d1_std=282.6 W_d2_std=280.6 W_d1_init_std=29.7 d1_range=[50.0,799.8] d2_range=[50.2,799.7] d1_rate=320.3 d2_rate=319.7 elapsed=650.4s

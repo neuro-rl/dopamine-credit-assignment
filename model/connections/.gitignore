@@ -1,0 +1,13 @@
+# Deterministic connectivity caches written by model/file_utils.py's
+# ensure_connectivity(), one per (run, connection). Regenerated
+# automatically and identically on the next run of the same config+seed --
+# not a source of truth, don't track.
+*.npz
+
+# Exception: cartpole_toy_v2_cortex_inh_inh.npz is NOT seed/config-keyed
+# (cart_pole/state_encoder.py hard-codes name_prefix="cartpole_toy_v2_"),
+# so every CartPole run of every seed/condition shares this one file.
+# Deleting it would let the next run regenerate a DIFFERENT shared
+# connectivity that every other run would then silently reuse, breaking
+# reproducibility of already-locked CartPole results. Keep tracked.
+!cartpole_toy_v2_cortex_inh_inh.npz

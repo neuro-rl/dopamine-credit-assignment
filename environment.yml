@@ -1,0 +1,16 @@
+# micromamba create -f environment.yml
+# then: pip install nest-simulator numpy opencv-python matplotlib pytest
+# (nest-simulator ships a prebuilt manylinux wheel — see README, do not build from source)
+name: snn310
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - nest-simulator
+      - numpy
+      - opencv-python
+      - matplotlib
+      - pytest
+      - numpy-stl   # optional: only for the real-mesh workspace-panel render (arm_mesh.py, assets/stl/)

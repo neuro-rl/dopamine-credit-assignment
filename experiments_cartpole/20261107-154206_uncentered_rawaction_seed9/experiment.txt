@@ -1,0 +1,16 @@
+experiment_id=ae2833b1-ecc1-47bd-ba83-6655d2ed8ecc
+label=uncentered_rawaction
+seed=9
+action_identity=True
+centered=False
+population_readout=False
+action_centered=False
+n_episodes=1000
+n_eval_episodes=30
+warmup_episodes=50
+epsilon_explore=0.3
+plasticity_lr=0.1
+anneal=False
+wmax_override=None
+elapsed_s=745.3
+summary_line=[uncentered_rawaction] seed=9 eps=0.3 lr=0.1 WARMUP=50 CENTERED: train_ep0-250=24.2 ep250-500=38.2 ep500-750=40.9 ep750-1000=39.5 train_max=208 flip_rate=0.296 GREEDY_EVAL_mean=24.3 GREEDY_EVAL_std=3.2 GREEDY_EVAL_max=31 W_d1_std=287.4 W_d2_std=277.6 W_d1_init_std=27.8 d1_range=[50.7,791.6] d2_range=[58.4,799.2] d1_rate=348.2 d2_rate=348.7 elapsed=745.0s

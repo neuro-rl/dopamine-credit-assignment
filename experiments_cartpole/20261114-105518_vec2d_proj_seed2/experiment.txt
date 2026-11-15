@@ -1,0 +1,17 @@
+experiment_id=8b6e7b03-6e16-4afb-8107-e5b87bdf3c9e
+label=vec2d_proj
+seed=2
+action_identity=True
+centered=True
+population_readout=True
+action_centered=True
+d1_only=False
+n_episodes=1000
+n_eval_episodes=30
+warmup_episodes=50
+epsilon_explore=0.3
+plasticity_lr=0.1
+anneal=False
+wmax_override=None
+elapsed_s=817.3
+summary_line=[vec2d_proj] seed=2 eps=0.3 lr=0.1 WARMUP=50 CENTERED: train_ep0-250=22.2 ep250-500=33.9 ep500-750=47.9 ep750-1000=50.3 train_max=221 flip_rate=0.270 GREEDY_EVAL_mean=139.1 GREEDY_EVAL_std=33.6 GREEDY_EVAL_max=197 W_d1_std=235.1 W_d2_std=234.6 W_d1_init_std=27.2 d1_range=[50.0,800.0] d2_range=[50.0,800.0] d1_rate=317.2 d2_rate=316.1 elapsed=817.1s

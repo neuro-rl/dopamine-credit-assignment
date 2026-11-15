@@ -1,0 +1,6 @@
+metric,value,n_clean_episodes,n_discarded_warmup
+selectivity,0.150000,20,1
+selectivity_decoy,0.700000,20,1
+selectivity_other,0.150000,20,1
+mean_d_commanded,174.012258,20,1
+mean_d_centroid,152.153416,20,1

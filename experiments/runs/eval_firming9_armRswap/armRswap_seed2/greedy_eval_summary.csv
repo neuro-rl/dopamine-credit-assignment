@@ -1,0 +1,9 @@
+metric,value,n_clean_episodes,n_discarded_warmup
+mean_distance,215.061740,20,1
+success_rate,0.000000,20,1
+success@15mm,0.000000,20,1
+success@30mm,0.000000,20,1
+success@50mm,0.050000,20,1
+success@100mm,0.100000,20,1
+success@150mm,0.250000,20,1
+mean_decoy_distance,201.566225,20,1
